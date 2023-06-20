@@ -16,7 +16,7 @@ export default function MyStack() {
   const [currentUser, setCurentUser] = useState('User 1');
   return (
     <Stack.Navigator
-      initialRouteName="Home"
+      initialRouteName="Login"
       screenOptions={{
         headerTintColor: 'white',
         headerStyle: {backgroundColor: 'tomato'},
